@@ -6,6 +6,8 @@
 
 YelpZip 
 
+
+
 # Statistical machine learning approach
 
 #todo
@@ -33,30 +35,36 @@ YelpZip
 
 * ## BERT
 
-  
+  BERT base model
 
 
-    Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model_BERT.ipynb)
+```markdown
+Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model_BERT.ipynb)
+```
 
 
 
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.57%   |           |        |          |
+| 86.72%   | 86.72%    | 100%   | 92.89%   |
 
 
 
 <br />
-<br />
-<br />         
-                  
-                   
+
+​                   
 
 
 * ## RoBERTa
 
  RoBERTa base model
+
+
+
+Code: [RoBERTa](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model_RoBERTa.ipynb)
+
+
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
