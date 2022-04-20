@@ -38,16 +38,16 @@ YelpZip
   BERT base model
 
 
-```markdown
+
 Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model_BERT.ipynb)
-```
+
 
 
 
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.72%   | 86.72%    | 100%   | 92.89%   |
+| 86.87%   | 87.76%    | 98.62% | 92.87%   |
 
 
 
@@ -68,4 +68,4 @@ Code: [RoBERTa](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/bl
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.72%   |  86.72%   |  100%  |  92.89%  |
+| 86.99%   |  87.78%   | 98.74% |  92.94%  |
