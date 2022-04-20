@@ -11,6 +11,21 @@ YelpZip
 #todo
 
 
+## Logistic Regression
+
+### TF-IDF
+
+
+
+
+### fasttext embedding
+
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 86.67%   |   87.7%   | 99.49% |  92.83%  |
+
+
 
 # Deep learning
 
@@ -21,7 +36,7 @@ YelpZip
   
 
 
-    Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model.ipynb)
+    Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model_BERT.ipynb)
 
 
 
@@ -41,7 +56,8 @@ YelpZip
 
 * ## RoBERTa
 
+ RoBERTa base model
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.57%   |           |        |          |
+| 86.72%   |  86.72%   |  100%  |  92.89%  |
