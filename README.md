@@ -4,28 +4,68 @@
 
 # Dataset
 
-YelpZip 
+[YelpZip](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/tree/main/YelpZip)
 
 
 
 # Statistical machine learning approach
 
-#todo
-
+Utilized 3 different machine learning models
 
 ## Logistic Regression
 
 ### TF-IDF
 
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 86.74%   |   87.13%   | 99.40% |  92.86%  |
 
 
 
-### fasttext embedding
+### fastText embedding
 
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.67%   |   87.7%   | 99.49% |  92.83%  |
+| 86.34%   |   86.52%   | 99.69% |  92.64%  |
+
+
+
+## SVM
+
+### TF-IDF
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 85.65%   |   85.66%  | 98.12% |  92.25%  |
+
+
+
+### fastText embedding
+
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 86.14%   |   86.32%  | 99.63% |  92.73%  |
+
+
+
+## Random Forest
+
+### TF-IDF
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 86.30%   |   86.40%  | 99.91% |  92.63%  |
+
+
+
+### fastText embedding
+
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 86.35%   |   86.86%  | 99.21% |  92.62%  |
 
 
 
@@ -39,7 +79,7 @@ YelpZip
 
 
 
-Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model_BERT.ipynb)
+Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/src/Language_Model_BERT.ipynb)
 
 
 
@@ -62,7 +102,7 @@ Code: [BERT](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/
 
 
 
-Code: [RoBERTa](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/Language_Model_RoBERTa.ipynb)
+Code: [RoBERTa](https://github.com/Remilistrasza/CSE573-Fake-Review-Detection/blob/main/src/Language_Model_RoBERTa.ipynb)
 
 
 
